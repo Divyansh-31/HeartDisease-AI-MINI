@@ -1,0 +1,37 @@
+# Downloaded dataset (retrieved by src/data_loader.py)
+data/
+
+# Generated model artifacts
+artifacts/*
+!artifacts/.gitkeep
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and secrets
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
